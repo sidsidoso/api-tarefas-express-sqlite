@@ -1,0 +1,28 @@
+{
+  "name": "api-tarefas-express-sqlite",
+  "version": "1.0.0",
+  "description": "API REST de tarefas com Express 5 e SQLite (better-sqlite3): CRUD, filtros, paginação e ordenação.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "better-sqlite3",
+    "api-rest",
+    "crud"
+  ],
+  "author": "sidsidoso",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "express": "^5.2.1"
+  }
+}
